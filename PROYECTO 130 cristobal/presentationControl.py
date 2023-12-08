@@ -55,8 +55,8 @@ def countFingers(image, hand_landmarks, handNo=0):
         # Control de la presentación
         # Descomenta el codigo correcto
 
-        finger_tip_x = (landmarks[8].x)*Width
-        finger_tip_y = (landmarks[8].y)*Height
+        finger_tip_x = (landmarks[8].x)*width
+        finger_tip_y = (landmarks[8].y)*height
         
         
         if totalFingers >= 1:
